@@ -1,0 +1,17 @@
+body{
+    background-color: aquamarine;
+}
+.container {
+    width: max-content;
+    margin: auto;
+    padding: 20vh 0;
+}
+
+kbd{
+    display: inline-block;
+    background-color: #ffffff;
+    border: 2px solid gray;
+    margin-left: -6px;
+    padding: 20vh 2vw 10vh;
+    font-size: 2em;
+}
