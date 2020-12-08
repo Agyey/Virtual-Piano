@@ -7,11 +7,22 @@ body{
     padding: 20vh 0;
 }
 
-kbd{
+.white-keys kbd{
     display: inline-block;
     background-color: #ffffff;
-    border: 2px solid gray;
-    margin-left: -6px;
-    padding: 20vh 2vw 10vh;
-    font-size: 2em;
+    border: 0.2vw solid gray;
+    margin-left: -1vw;
+    padding: 20vh 2vw 5vh;
+    font-size: 5vh;
+}
+
+.black-keys kbd{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    margin-left: 1.75vw;
+    padding: 5vh 1.5vw 5vh;
+    font-size: 5vh;
+    position: relative;
+    top: -32vh;
 }
